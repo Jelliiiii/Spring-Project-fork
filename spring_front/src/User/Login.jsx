@@ -73,6 +73,7 @@ const Login = ({ handleClose }) => {
 
   const handleLogin = async (e) => {
     e.preventDefault();
+
     try {
       const response = await userLogin(loginData);
       alert('환영합니다!');
